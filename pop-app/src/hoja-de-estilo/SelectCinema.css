@@ -1,0 +1,227 @@
+.principal {
+    height: 700px;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Nexa', sans-serif;
+}
+
+.h1-t {
+    margin-top: 30px;
+    margin-bottom: 10px;
+    color: white;
+    font-size: 20px;
+    text-align: center;
+    justify-content: center;
+}
+
+
+
+.navegateBar {
+    align-items: center;
+    justify-content: center;
+    background-color: #FFD500;
+    display: flex;
+    margin: auto;
+    height: 50px;
+}
+
+.logo {
+    width: 85px;
+    height: 40px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: auto;
+    margin-top: auto;
+}
+
+.text-1 {
+    margin-top: 30px;
+    margin-bottom: 20px;
+    color: #fff;
+    font-weight: bolder;
+    font-size: 11px;
+    text-align: center;
+    justify-content: center;
+
+}
+
+::placeholder {
+    color: #A8A8A8;
+    font-size: 11px;
+    font-weight: bolder;
+}
+
+.Sign-up {
+    background-color: #FFD500;
+    margin-bottom: 50px;
+    margin-top: 20px;
+    text-align: center;
+    width: 100px;
+    height: 30px;
+    font-weight: bolder;
+    border-radius: 30px;
+    font-weight: bold;
+    box-shadow: #FFD500;
+    margin-left: 8%;
+    color: black;
+
+}
+
+hr {
+    width: 70%;
+    height: 1px;
+    background-color: white;
+}
+
+button {
+    background-color: #fff;
+    width: 250px;
+    height: 70px;
+    border-radius: 15px;
+    color: white;
+    align-items: center;
+    justify-content: center;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    margin-left: 19px;
+    display: inline-flex;
+    cursor: pointer;
+
+}
+
+.cinepolis {
+    position: relative;
+    display: inline-block;
+
+}
+
+.cinemark {
+    position: relative;
+    display: inline-block;
+}
+
+.metrocinemas {
+    position: relative;
+    display: inline-block;
+}
+
+
+.Cinemark_logo {
+    width: 80%;
+    height: 100px;
+}
+
+.CINEPOLIS-LOGO {
+    width: 80%;
+    height: 60px;
+}
+
+.metrocinemas-logo {
+    width: 80%;
+    height: 90px;
+}
+
+/*-------------------Drop Down Menu Cinepolis----------------------------------------------*/
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+    z-index: 1;
+
+}
+
+.dropdown-content a {
+    color:#A8A8A8;
+    font-family: 'Nexa', sans-serif;
+    font-weight: bolder;
+    text-align: left;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    font-size: 12px;
+
+}
+
+.dropdown-content a:hover {
+    background-color: #f1f1f1
+}
+
+.cinepolis:hover .dropdown-content {
+    margin-left: 19px;
+    width: 250px;
+    height: AUTO;
+    display: block;
+}
+
+/*-------------------------------------------------------------------------------*/
+
+/*  Drop Down Menu Cinemark*/
+.dropdown-content1 {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+    z-index: 1;
+}
+
+.dropdown-content1 a {
+    color:#A8A8A8;
+    font-family: 'Nexa', sans-serif;
+    font-weight: bolder;
+    text-align: left;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    font-size: 12px;
+}
+
+.dropdown-content1 a:hover {
+    background-color: #f1f1f1
+}
+
+.cinemark:hover .dropdown-content1 {
+    margin-left: 19px;
+
+    width: 250px;
+    height: AUTO;
+    display: block;
+}
+
+/*-------------------------------------------------------------------------------*/
+/*  Drop Down Menu Metrocinemas*/
+.dropdown-content2 {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 200px;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+    z-index: 1;
+}
+
+.dropdown-content2 a {
+    color:#A8A8A8;
+    font-family: 'Nexa', sans-serif;
+    font-weight: bolder;
+    text-align: left;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    font-size: 12px;
+}
+
+.dropdown-content2 a:hover {
+    background-color: #f1f1f1
+}
+
+.metrocinemas:hover .dropdown-content2 {
+    margin-left: 19px;
+
+    width: 250px;
+    height: AUTO;
+    display: block;
+}
+
+/*-------------------------------------------------------------------------------*/

@@ -1,0 +1,80 @@
+.principal {
+    height: 700px;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Nexa';
+    background-color: black;
+    text-align: center;
+  }
+
+.navegate-h1{
+    color: black;
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: 10%;
+}
+
+.name-and-pic{
+    margin-top: 8%;
+}
+
+.profile-pic{
+    border-radius: 50%;
+    width: 13%;
+}
+
+.profile-name{
+    margin-top: 1%;
+    font-weight: lighter;
+    font-size: 13px;
+}
+
+.botones{
+    margin-top: 5%;
+    margin-bottom: 40%;
+}
+
+.bts{
+    color: black;
+    background-color: #FFD500;
+    border-radius: 12px;
+    padding: 3%;
+    display: list-item;
+    margin-left: 10%;
+    width: 80%;
+    text-align: left;
+    font-weight: bold;
+    margin-top: 3%;
+}
+
+footer{
+  
+   margin-top: 11%;
+   background-color: #FFD500;
+  
+}
+  
+footer img{
+    width:35px;
+    margin-right: 5%;
+    height: 7%;
+}
+  
+.claqueta{
+    float: left;
+    margin-top: 2%;
+    margin-left: 8%;
+}
+  
+.usuario{
+    margin-top: 1%;
+}
+  
+.gps{
+    height: 40px;
+    width: 40px;
+    float: right;
+    margin-top: 1%;
+    margin-right: 8%;
+}
+  

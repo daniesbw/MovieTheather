@@ -1,0 +1,39 @@
+.principal {
+    height: 700px;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Nexa', sans-serif;
+    background-color: black;
+}
+h1{
+    color: white;
+    font-size: 20px;
+    text-align: center;
+    margin-left: 15%;
+    margin-right: 15%;
+    margin-top: 10%;
+    margin-bottom: 5%;
+}
+
+p{
+    line-height: 25px;
+    margin-left: 5%;
+    margin-right: 5%;
+    font-size: 17px;
+    text-align: left;
+    color: white;
+}
+
+.logo{
+    
+}
+
+.acepto{
+    margin-top: 40px;
+    background-color: #FFD500; 
+    height: 30px;
+    width: 80px;
+    font-family: 'Nexa', sans-serif;
+    font-weight: bolder;
+    border-radius: 15px;
+}

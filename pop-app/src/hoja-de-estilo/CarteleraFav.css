@@ -1,0 +1,121 @@
+.principal {
+    height: 700px;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Nexa';
+    background-color: black;
+    text-align: center;
+    font-weight: bold;
+  }
+  
+  .h1-title{
+    cursor: pointer;
+    margin-top: 5%;
+    color: white;
+    font-size: 20px;
+    font-weight: bolder;
+  }
+  
+  .navegate-h1{
+    color: black;
+    font-size: 20px;
+    font-weight: bold;
+  }
+  
+  .Estrenos{
+    align-items: center;
+    justify-content: center;
+    margin-top: 7%;
+    text-align: left;
+    margin-left: 7%;
+  
+  
+  }
+  
+  h2{
+    color: white;
+    font-size: 13px;
+    margin-bottom: 4%;
+  }
+  
+  
+  .Estrenos img{
+    width: 70px;
+    margin-right: 5%;
+    height: 10%;
+    border-radius: 10%;
+  }
+  
+  .line-breaks{
+    margin-bottom: 5%;
+    margin-top: 5%;
+    margin-right: 10%;
+    
+    width: 92%;
+    background-color: #FFD500;
+  }
+  
+  .Ofertas{
+    align-items: center;
+    justify-content: center;
+    
+    text-align: left;
+    margin-left: 7%;
+  
+  
+  }
+  .Ofertas img{
+    width:70px;
+    margin-right: 5%;
+  
+    height: 10%;
+    border-radius: 10%;
+  }
+  
+  .preventa{
+    align-items: center;
+    justify-content: center;
+    
+    text-align: left;
+    margin-left: 7%;
+  
+  
+  }
+  .preventa img{
+    width:70px;
+    margin-right: 5%;
+    height: 10%;
+    border-radius: 10%;
+  }
+  
+  .footer-fav{
+    
+    background-color: #FFD500;
+  
+  }
+  
+  footer img{
+    width:35px;
+    margin-right: 5%;
+    height: 7%;
+  }
+  
+  .claqueta{
+    float: left;
+    margin-top: 2%;
+    margin-left: 8%;
+  }
+  
+  .usuario{
+    margin-top: 1%;
+  }
+  
+  .gps{
+    height: 40px;
+    width: 40px;
+    float: right;
+    margin-top: 1%;
+    margin-right: 8%;
+  }
+  
+  

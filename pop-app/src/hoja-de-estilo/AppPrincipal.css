@@ -1,0 +1,31 @@
+.texto-bienvenida{
+    margin-top: 40%;
+    align-items: center;
+    text-align: center;
+    font-size: 15px;
+    color: black;
+    font-family: 'Nexa', sans-serif;
+}
+
+.text{
+    margin-bottom: 5%;
+    color: black;
+    font-size: 35px;
+}
+
+.foto-logo{
+    width: 70%;
+    height: 20%;
+    margin-left: 11%;
+    margin-right: 10%;
+}
+
+.siguiente{
+    align-items: center;
+    margin-top: 10%;
+    background-color: black;
+    color: white;
+    width: 20%;
+    height: 10%;
+    border-radius: 15px;
+}

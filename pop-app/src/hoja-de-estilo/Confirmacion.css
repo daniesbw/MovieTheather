@@ -1,0 +1,67 @@
+.principal-confirmacion{
+    height: 700px;
+    background-color: black;
+    align-items: center;
+    font-family: 'Nexa';
+}
+
+.logo-confirmacion{
+    margin-top: 50%;
+    margin-left: 35%;
+    width: 30%;
+    align-items: center;
+}
+
+.h1-confirmacion{
+    font-size: 30px;
+    font-weight: 300%;
+}
+
+.Salir{
+    color: black;
+    background-color: #FFD500;
+    margin-bottom: 50px;
+    margin-top: 10px;
+    text-align: center;
+    width: 90px;
+    height: 30px;
+    border-radius: 30px;
+    font-weight: bold;
+    box-shadow: #FFD500;
+    margin-left: 38%;
+    
+}
+
+.h2-confirmacion{
+    color:grey;
+    font-size: 7px;
+    margin-left: 34%;
+    margin-top: -10%;
+}
+
+.footer-global{
+    margin-top: 38%;
+}
+  
+  .claqueta-confirmacion{
+    float: left;
+    margin-top: 2%;
+    margin-left: 8%;
+    cursor: pointer;
+  }
+  
+  .usuario-confirmacion{
+    margin-top: 1%;
+    margin-left: 23%;
+    cursor: pointer;
+  }
+  
+  .gps-confirmacion{
+    height: 40px;
+    width: 40px;
+    float: right;
+    margin-top: 1%;
+    margin-right: 8%;
+    cursor: pointer;
+  }
+  
