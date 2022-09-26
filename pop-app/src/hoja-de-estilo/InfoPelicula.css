@@ -1,0 +1,228 @@
+.principal {
+    height: 700px;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Nexa';
+    background-color: black;
+    text-align: center;
+  }
+
+  .foto_movie{
+    display: flex;
+    background-image: url('../imagenes/rock.jpg');
+  }
+.bt-pago{
+  color: black;
+  font-weight: bolder;
+  width: 30%;
+  height: 10%;
+}
+
+  .mas{
+    margin-top: 3%;
+  }
+
+  .ver_mas{
+    color: black;
+    background-color: #FFD500;
+    border-radius: 12px;
+    display: list-item;
+    margin-left: 10%;
+    width: 80%;
+    text-align: center;
+    font-weight: bolder;
+    margin-top: 3%;
+    font-size: 12px;
+    height: 30px;
+  }
+
+  .row{
+    margin-left: 5%;
+  }
+
+  .column{
+    margin-top: 3%;
+    float: center;
+    
+  }
+  
+  .row::after{
+    content: "";
+    display: table;
+    clear: both;
+  }
+
+  .h1-hr{
+    width: 50px;
+    color: white;
+  }
+
+  .h1-title{
+    width: 50px;
+    color: #FFD500;
+    font-size: 11px;
+    font-weight: bold;
+  }
+
+  .h1-title:hover{
+    color: white;
+  }
+
+  .rock{
+    width: 20%;
+    margin-top: 5%;
+    margin-left: 10%;
+  }
+
+  .location{
+    font-size: 0px;
+  }
+
+  .ubicacion{
+    font-size: 12px;
+    color: white;
+  }
+
+  .ubi{
+    font-size: 8px;
+    color: gray;
+    margin-top: 1%;
+  }
+
+  .catg{
+    background-color: orange;
+    margin-top: 30%;
+    font-size: 12px;
+    padding: 1%;
+    border-radius: 5px;
+    margin-left: 4%;
+  }
+
+  .duracion{
+    font-size: 12px;
+    background-color: white;
+    padding: 1%;
+    margin-top: 30%;
+    margin-left: 15%;
+    border-radius: 5px;
+    color: black;
+    padding-left: 2%;
+    padding-right: 2%;
+  }
+
+  .hnd-location{
+    font-size: 11px;
+    font-weight: bolder;
+    padding-right: 35%;
+    margin: 2%;
+    margin-bottom: 1%;
+  }
+
+  .small-text{
+    font-size: 9px;
+    text-align: left;
+    padding-left: 4%;
+    margin: 2%;
+    color: gray;
+    margin-top: 0%;
+  }
+
+  .hr-info{
+    width: 90%;
+    display: flex;
+     margin-top: 3%;
+     margin-left: 5%;
+     border: 1px solid #FFD500;
+   }
+
+   .detalles{
+    background-color: #474747;
+    border-radius: 12px;
+    margin: 5%;
+   }
+
+   .top-detalles{
+    display: flex;
+   }
+
+   .dtl{
+    background-color: darkgray;
+    border-radius: 12%;
+    margin-top: 30%;
+    font-size: 12px;
+    padding: 2%;
+    border-radius: 5px;
+    margin: 3%;
+    font-weight: bolder;
+   }
+
+   .h1-sillas{
+    margin: 5%;
+    font-size: 14px;
+    font-weight: bolder;
+    margin-bottom: 1%;
+   }
+
+   .bts-horario{
+    height: 10%;
+    padding: 3%;
+    padding-top: 1%;
+   }
+
+  .bt-horario-info{
+    color: black;
+    width: 60px;
+    font-weight: bolder;
+    font-size: 12px;
+    font-weight: 500%;
+    background-color: #FFD500;
+    border-radius: 8px;
+    padding: 1%;
+    height: 20px;
+    margin-top: 0%;
+  }
+
+  .bt-r-compra-info{
+    color: black;
+    background-color: #FFD500;
+    font-size: 14px;
+    padding: 2%;
+    margin-top: -10%;
+    margin-bottom: -5%;
+    border-radius: 20px;
+    font-weight: bolder;
+    height: 40px;
+    width: 120px;
+    font-weight: 500%;
+  }
+
+   footer{
+  
+    margin-top: 9%;
+    background-color: #FFD500;
+  
+  }
+  
+  footer img{
+    width:35px;
+    margin-right: 5%;
+    height: 7%;
+  }
+  
+  .claqueta{
+    float: left;
+    margin-top: 2%;
+    margin-left: 8%;
+  }
+  
+  .usuario{
+    margin-top: 1%;
+  }
+  
+  .gps{
+    height: 40px;
+    width: 40px;
+    float: right;
+    margin-top: 1%;
+    margin-right: 8%;
+  }

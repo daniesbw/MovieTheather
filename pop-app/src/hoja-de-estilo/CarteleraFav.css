@@ -8,12 +8,30 @@
     font-weight: bold;
   }
   
-  .h1-title{
+  .h1-title-cine-fav{
     cursor: pointer;
     margin-top: 5%;
     color: white;
-    font-size: 20px;
+    font-size: 11px;
     font-weight: bolder;
+  }
+
+  .h1-title-selected-cine-fav{
+    cursor: pointer;
+    margin-top: 5%;
+    color: #FFD500;
+    font-size: 11px;
+    font-weight: bold;
+  }
+
+  .h1-hr-cine-fav{
+    margin-left: 15%;
+    color: white;
+  }
+  
+  .h1-hr-s-cine-fav{
+    margin-left: 15%;
+    color: #FFD500;
   }
   
   .navegate-h1{

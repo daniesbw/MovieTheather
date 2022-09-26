@@ -22,6 +22,7 @@ function LogIn() {
     }, []);
 
     const validarLogin = () => {
+        alert(correoLog+'  '+passwordLog);
         if (array.find(item => item.correo == correoLog) && array.find(item => item.correo == correoLog).contrasenia == passwordLog) {
             
             alert('Bienvenido usuario: '+ correoLog) ;

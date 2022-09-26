@@ -7,7 +7,7 @@
   text-align: center;
 }
 
-.h1-title{
+.h1-title-cine-global{
   cursor: pointer;
   margin-top: 5%;
   color: white;
@@ -15,7 +15,7 @@
   font-weight: bold;
 }
 
-.h1-title-selected{
+.h1-title-selected-cine-global{
   cursor: pointer;
   margin-top: 5%;
   color: #FFD500;
@@ -23,7 +23,7 @@
   font-weight: bold;
 }
 
-.h1-hr{
+.h1-hr-cine-global{
   margin-left: 15%;
   color: white;
 }

@@ -7,6 +7,9 @@ function Confirmacion() {
         navigate('/Perfil');
     }
 
+    const regresar = () => {
+        navigate('/CarteleraGlobal');
+    }
 
     return (
         <div className="principal-confirmacion">
@@ -21,7 +24,7 @@ function Confirmacion() {
 
             <h1 className="h1-confirmacion">GRACIAS POR TU COMPRA</h1>
 
-            <button className="Salir">
+            <button className="Salir"  onClick={() => regresar()} >
                 Salir
             </button>
 

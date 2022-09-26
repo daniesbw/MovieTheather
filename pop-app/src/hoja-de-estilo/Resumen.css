@@ -1,0 +1,61 @@
+.resumen-t{
+    margin: 5%;
+    color: #FFD500;
+}
+
+.exact-location-m{
+    padding-top: 2%;
+}
+
+.bts-horario-2{
+    margin-right: 60%;
+    padding: 5%;
+    padding-top: 1%;
+    display: flex;
+    padding-bottom: 3%;
+}
+
+.sala-d{
+    margin-right: 75%;
+    padding-bottom: 3%;
+}
+
+.asientos-dibujo{
+    display: flex;
+    padding-bottom: 3%;
+}
+
+.seats{
+    height: 10%;
+    width: 10%;
+}
+
+.h1-pago{
+    margin: 5%;
+    font-size: 14px;
+    font-weight: bolder;
+    margin-bottom: 1%;
+    text-align: left;
+}
+
+.pago-info{
+    margin: 5%;
+    font-size: 14px;
+    font-weight: bolder;
+    margin-bottom: 1%;
+    text-align: left;
+    font-weight: lighter;
+}
+
+.met-pago{
+    display: flex;
+}
+
+.bt-pago{
+    background-color: #FFD500;
+    font-size: 16px;
+    padding: 2%;
+    border-radius: 20px;
+    font-weight: bolder;
+    margin: 11%;
+}

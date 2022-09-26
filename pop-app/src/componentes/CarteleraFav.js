@@ -1,5 +1,5 @@
 import { React, useState } from "react";
-import "../hoja-de-estilo/CarteleraGlobal.css";
+import "../hoja-de-estilo/CarteleraFav.css";
 import { useNavigate } from 'react-router-dom';
 import Monopoly from '../imagenes/monopoly.jpg';
 import Rock from '../imagenes/rock.jpg';
@@ -96,9 +96,9 @@ function CarteleraGlobal() {
                 <h1 className="navegate-h1">CARTELERA</h1>
             </div>
             <div className="row">
-                <div  className="column"><h1 className="h1-title-selected">CINE FAVORITOS</h1><hr className="h1-hr-s"></hr></div>
-                <div onClick={() => irCineGlob()} className="column"><h1 className="h1-title">CINE GLOBAL</h1><hr className="h1-hr"></hr></div>
-                <div onClick={() => irCategorias()}className="column"><h1 className="h1-title">CATEGORÍAS</h1><hr className="h1-hr"></hr></div>
+                <div  className="column"><h1 className="h1-title-selected-cine-fav">CINE FAVORITOS</h1><hr className="h1-hr-s-cine-fav"></hr></div>
+                <div onClick={() => irCineGlob()} className="column"><h1 className="h1-title-cine-fav">CINE GLOBAL</h1><hr className="h1-hr-cine-fav"></hr></div>
+                <div onClick={() => irCategorias()}className="column"><h1 className="h1-title-cine-fav">CATEGORÍAS</h1><hr className="h1-hr-cine-fav"></hr></div>
             </div>
             <div className="Estrenos">
 

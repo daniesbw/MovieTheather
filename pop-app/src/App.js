@@ -9,6 +9,8 @@ import Terminos from './componentes/terminos';
 import Categoria from './componentes/Categorias';
 import Perfil from "./componentes/Perfil";
 import Confirmacion from './componentes/Confirmacion';
+import InfoPelicula from './componentes/InfoPelicula';
+import Resumen from './componentes/Resumen';
 
 import {BrowserRouter as Router,Routes,Route} from 'react-router-dom';
 
@@ -28,6 +30,8 @@ function App() {
           <Route path='/Categorias' element={<Categoria/>}></Route>
           <Route path='/Perfil' element={<Perfil/>}></Route>
           <Route path='/Confirmacion' element={<Confirmacion/>}></Route>
+          <Route path='/InfoPelicula' element={<InfoPelicula/>}></Route>
+          <Route path='/Resumen' element={<Resumen/>}></Route>
         </Routes>
       </Router>
       </div>
