@@ -11,7 +11,7 @@ function CarteleraGlobal() {
     var duraciones = ['150 min', '90min', '130 min', '100 min', '125 min'];
     var generos = ['Romance', 'Comedia', 'Aventura', 'Accion', 'Accion'];
     var ratings = ['D', 'A', 'D', 'A', 'B'];
-    var tittles = ['After', 'Monopoly', 'Piedra, Papel y tijeras', 'Rapidos y Furiosos'];
+    var tittles = ['After', 'Monopoly', 'Piedra, Papel y tijeras', 'RAPIDOS Y FURIOSOS'];
     var directoresArr = ['Jenny Gage', 'Tim Story', 'Tom Holland', 'Justin Lin'];
     var arreglosinop = ['Tessa Young begins her freshman year of college by moving into her dorm room with the help of her mother, Carol, and her boyfriend, Noah. During this process she meets her new roommate Steph and Stephs boyfriend Tristan. The day after, Tessa shares a brief encounter with Stephs friend, Hard',
         'A trio of kids from Baltic Avenue discover that Charles Darrow, the inventor of Monopoly, hid a coded secret in the game that weve all been playing with for generations, setting them off on an adventure through the streets of Atlantic City, racing through forgotten underground railroads, the Boardwalk and more as theyre pursued by a near-bankrupt casino owner also competing to find Darrows hidden fortune.'
@@ -19,12 +19,14 @@ function CarteleraGlobal() {
         'Dom Toretto vive una vida tranquila junto a Letty y su hijo, pero el peligro siempre regresa a su vida. En esta ocasión, el equipo se enfrenta a un complot mundial orquestado por el asesino más temible del mundo: el hermano de Dom.'];
     var [duracion, setDura] = useState('82 min');
     var [genero, setGen] = useState('Accion');
-    var [rating, setRating] = ['D'];
-    var [titulo, setTitulo] = ['D'];
+    var [rating, setRating] = useState('');
+    var [titulo, setTitulo] = useState('');
     var [imgpeli, setImg] = useState(AfterMovie);
     var [sinopsis, setSinop] = useState('Tessa Young begins her freshman year of college by moving into her dorm room with the help of her mother, Carol, and her boyfriend, Noah. During this process she meets her new roommate Steph and Stephs boyfriend Tristan. The day after, Tessa shares a brief encounter with Stephs friend, Hard',
         'A trio of kids from Baltic Avenue discover that Charles Darrow, the inventor of Monopoly, hid a coded secret in the game that weve all been playing with for generations, setting them off on an adventure through the streets of Atlantic City, racing through forgotten underground railroads, the Boardwalk and more as theyre pursued by a near-bankrupt casino owner also competing to find Darrows hidden fortune.')
     var [director, setDirector] = useState('Jenny Gage');
+
+
 
 
 
@@ -72,7 +74,7 @@ function CarteleraGlobal() {
 
 
     const irSinopsis = () => {
-        navigate('/CarteleraFav',{state:{dura:duracion,gender:genero,rate:rating,sinop:sinopsis,title:titulo,imagenRev:imgpeli,director:director}});
+        navigate('/InfoPelicula',{state:{dura:duracion,gender:genero,rate:rating,sinop:sinopsis,title:titulo,imagenRev:imgpeli,director:director}});
     }
 
     const navigate = useNavigate();
@@ -170,7 +172,7 @@ function CarteleraGlobal() {
 
             </div>
 
-            <footer className="footer-global">
+            <footer className="footer-fav">
                 <img
                     className="claqueta"
                     src={require("../imagenes/claqueta.png")}

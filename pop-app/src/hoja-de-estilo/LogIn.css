@@ -86,8 +86,10 @@ form input {
     
 }
 
-hr{
-    width: 70%;
+.line-breaks-login{
+   margin-left: 5%;
+   
+    width: 90%;
     height: 1px;
     background-color: white;
 }
@@ -108,9 +110,7 @@ hr{
     display: inline-flex;
 }
 
-.line-breaks{
-    margin-left: 12%;
-}
+
 
 .logo-google{
     width: 18%;

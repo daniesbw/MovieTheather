@@ -25,9 +25,12 @@ function InfoPelicula() {
     var rating = state.rate;
     var directorr = state.director1;
     console.log(linkmg);
-    const aaa = () => {
-        alert('Sinopsis: '+sinopmain+"\n\n"+ "Director: "+directorr);
+
+    const irSinoppsis = () => {
+ 
+        navigate('/Sinopsis',{state:{dura:duracion,gender:genero,rate:rating,sinop:sinopmain,title:nombreback,imagenRev:linkmg,director1:directorr}});
     }
+
 
     const irResumen = () => {
         navigate('/Resumen');
@@ -41,7 +44,7 @@ function InfoPelicula() {
 
             <div className="foto_movie">
                 <img
-                    className="rock"
+                    className="foto-movie"
                     src={({AfterMovie})}
                 />
                 <h1 className="catg">{rating}</h1>
@@ -49,7 +52,7 @@ function InfoPelicula() {
             </div>
 
             <div className="mas">
-                <button className="ver_mas"  onClick={() => aaa()}>VER MÁS</button>
+                <button className="ver_mas"  onClick={() => irSinoppsis()}>VER MÁS</button>
             </div>
 
             <hr className="hr-info"></hr>

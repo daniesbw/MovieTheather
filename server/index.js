@@ -1,10 +1,10 @@
 const mysql = require("mysql2");
 
-const {createPool, createPoolCluster} = require('mysql2/promise.js')
+const {createPool} = require('mysql2/promise')
 const express = require("express");
 const app = express();
 const cors = require("cors");
-const Pool = require("mysql2/typings/mysql/lib/Pool");
+
 
 app.use(express.json());
 app.listen(3001, () => {
@@ -16,7 +16,7 @@ const pool = mysql.createPool({
    user: "b0923fcd87f435",
    password: "4ead7401",
    database: "heroku_b15f6f225bde9fd",
-})
+});
 
 
 app.use(
@@ -35,7 +35,7 @@ app.post("/register", (req, res) => {
    const correo = req.body.correo;
    const contrasenia = req.body.password;
    pool.execute(
-      "INSERT INTO usuarios  (username, nombre, apellido, correo, contrasenia) VALUES (?,?,?,?,?)",
+      "INSERT INTO usuarios  (nombre, apellido, username,  correo, contrasenia) VALUES (?,?,?,?,?)",
       [username, nombre, apellido, correo, contrasenia],
       (err, result) => {
          console.log(err);

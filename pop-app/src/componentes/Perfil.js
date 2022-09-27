@@ -1,7 +1,14 @@
 import React from "react";
 import "../hoja-de-estilo/Perfil.css";
+import { useNavigate } from 'react-router-dom';
 
 function Perfil() {
+
+    const navigate = useNavigate();
+
+    const regresar = () => {
+        navigate('/login');
+    }
     return (
         <div className="principal">
             <div className="navegateBar">
@@ -23,10 +30,10 @@ function Perfil() {
                 <button className="bts">Registro de Compras</button>
                 <button className="bts">Privacidad y Seguridad</button>
                 <button className="bts">Ayuda y Soporte Técnico</button>
-                <button className="bts">Cerrar sesión</button>
+                <button onClick={() => regresar()} className="bts" >Cerrar sesión</button>
             </div>
 
-            <footer>
+            <footer className="footer-perfil">
                 <img
                     className="claqueta"
                     src={require("../imagenes/claqueta.png")}

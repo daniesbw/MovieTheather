@@ -8,6 +8,7 @@
   }
   
   .h1-title-c{
+    text-align: center;
     margin-top: 5%;
     color: white;
     font-size: 11px;
@@ -15,6 +16,8 @@
   }
   
   .h1-title-selected-categorias{
+    text-align: center;
+    cursor: pointer;
     margin-top: 5%;
     color: #FFD500;
     font-size: 11px;
@@ -22,12 +25,12 @@
   }
   
   .h1-hr-c{
-    margin-left: 15%;
+    width: 75%;
     color: white;
   }
   
   .h1-hr-s-categoria{
-    margin-left: 15%;
+    width: 75%;
     color: #FFD500;
   }
   
@@ -110,6 +113,7 @@
   }
   
 .footer-categorias{
+  margin-top: 7%;
     background-color: #FFD500;
 }
   

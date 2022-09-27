@@ -8,6 +8,7 @@
 }
 
 .h1-title-cine-global{
+  text-align: center;
   cursor: pointer;
   margin-top: 5%;
   color: white;
@@ -16,6 +17,7 @@
 }
 
 .h1-title-selected-cine-global{
+  text-align: center;
   cursor: pointer;
   margin-top: 5%;
   color: #FFD500;
@@ -24,12 +26,12 @@
 }
 
 .h1-hr-cine-global{
-  margin-left: 15%;
+  width: 75%;
   color: white;
 }
 
 .h1-hr-s{
-  margin-left: 15%;
+ 
   color: #FFD500;
 }
 
@@ -112,7 +114,7 @@ hr{
 }
 
 .footer-global{
-  
+  margin-top: 7%;
   background-color: #FFD500;
 
 }

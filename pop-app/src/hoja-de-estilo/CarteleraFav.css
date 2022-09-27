@@ -9,6 +9,7 @@
   }
   
   .h1-title-cine-fav{
+    text-align: center;
     cursor: pointer;
     margin-top: 5%;
     color: white;
@@ -17,6 +18,7 @@
   }
 
   .h1-title-selected-cine-fav{
+    text-align: center;
     cursor: pointer;
     margin-top: 5%;
     color: #FFD500;
@@ -25,12 +27,12 @@
   }
 
   .h1-hr-cine-fav{
-    margin-left: 15%;
+    width: 75%;
     color: white;
   }
   
   .h1-hr-s-cine-fav{
-    margin-left: 15%;
+    
     color: #FFD500;
   }
   
@@ -107,7 +109,7 @@
   }
   
   .footer-fav{
-    
+    margin-top: 7%;
     background-color: #FFD500;
   
   }

@@ -1,4 +1,4 @@
-import { React, useState } from "react";
+import { React, useState, useEffect } from "react";
 import "../hoja-de-estilo/SignUp.css";
 import { useNavigate } from 'react-router-dom';
 import Axios from "axios";
@@ -31,9 +31,9 @@ function SignUp() {
 
 
     const validaciones = () => {
-        if(nameReg,correoReg,passwordReg,passwordConfirm,apellidoReg,usernameReg ===""){
+        if (nameReg, correoReg, passwordReg, passwordConfirm, apellidoReg, usernameReg === "") {
             alert('Uno de los campos está vacio');
-        }else if ((/[^a-zA-Z]/.test(nameReg)) && (/[^a-zA-Z]/.test(apellidoReg))) {
+        } else if ((/[^a-zA-Z]/.test(nameReg)) && (/[^a-zA-Z]/.test(apellidoReg))) {
             alert('No se puede poner caracteres especiales en el nombre o el apellido');
         } else if (passwordReg != passwordConfirm) {
             alert('La contraseña debe ser igual al de la confirmación');
@@ -41,7 +41,7 @@ function SignUp() {
             alert('El correo debe incluir una "@"');
         } else if (validarCheck == false) {
             alert('Debe aceptar los términos de uso');
-        } else{           
+        } else {
             validarRepetidos();
         }
     }
@@ -62,38 +62,36 @@ function SignUp() {
         setFramework(e.target.value);
     }
 
-   
+    var [array, setArray] = useState([]);
 
-    const register = () => {
+    useEffect(() => {
+        Axios.get("http://localhost:3001/login").then((response) => {
+            setArray(response.data);
+        });
+    }, []);
 
-        alert('Cuenta creada exitosamente!');
-        Axios.post("http://localhost:3001/register", {
-            nombre: nameReg,
-            apellido: apellidoReg,
-            username: usernameReg,
-            correo: correoReg,
-            password: passwordReg
-        })
-
-        navigate('/login');
-
-    }
 
     const validarRepetidos = () => {
+        alert('Se esta intentando crear al usuario')
         Axios.get("http://localhost:3001/getUserCorreo").then((response) => {
             if (!(response.data.find(item => item.username === usernameReg))) {
                 if (!(response.data.find(item => item.correo === correoReg))) {
-
-                    register();
                     alert("usuario y correo validos");
+                    Axios.post("http://localhost:3001/register", {
+                        nombre: nameReg,
+                        apellido: apellidoReg,
+                        username: usernameReg,
+                        correo: correoReg,
+                        password: passwordReg
+                    })
                 } else {
                     alert("Correo repetido");
                 }
             } else {
                 alert("Usuario repetido");
             }
-
         })
+
     }
 
     return (
@@ -140,7 +138,7 @@ function SignUp() {
 
                 </div>
 
-                <button onClick={() =>  validaciones() } className="Sign-up-S">REGISTRAR</button>
+                <button onClick={() => validaciones()} className="Sign-up-S">REGISTRAR</button>
 
 
 
@@ -165,7 +163,7 @@ function SignUp() {
                     Registrarme con Facebook
                 </button>
                 <h1 className="h2-login-sign">Prefiero iniciar sesión</h1>
-                <button onClick={() =>ingresar_sign_up()} className="log-in-sign-button">INICIAR</button>
+                <button onClick={() => ingresar_sign_up()} className="log-in-sign-button">INICIAR</button>
             </div>
 
 

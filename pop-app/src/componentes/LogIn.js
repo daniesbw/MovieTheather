@@ -53,7 +53,7 @@ function LogIn() {
                 <button onClick={() => validarLogin()} className="log-in">INICIAR</button>
             </form>
 
-            <hr className="line-breaks" />
+            <hr className="line-breaks-login" />
 
             <button className="Google-login"><img
                 className="logo-google"

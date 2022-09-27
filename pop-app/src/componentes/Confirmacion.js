@@ -32,7 +32,7 @@ function Confirmacion() {
                 Hemos enciado al correo su factura
             </h2>
 
-            <footer className="footer-global">
+            <footer className="footer-confirmacion">
                 <img
                     className="claqueta-confirmacion"
                     src={require("../imagenes/claqueta.png")}

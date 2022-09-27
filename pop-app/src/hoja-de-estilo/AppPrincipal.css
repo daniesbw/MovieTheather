@@ -8,9 +8,11 @@
 }
 
 .text{
+    margin-left: 20%;
     margin-bottom: 5%;
     color: black;
     font-size: 35px;
+    text-align: center;
 }
 
 .foto-logo{

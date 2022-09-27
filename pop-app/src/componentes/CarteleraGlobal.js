@@ -99,7 +99,7 @@ function CarteleraGlobal() {
             </div>
             <div className="row">
                 <div onClick={() => irCineFav()} className="column"><h1 className="h1-title-cine-global">CINE FAVORITOS</h1><hr className="h1-hr-cine-global"></hr></div>
-                <div className="column"><h1 className="h1-title-selected-cine-global">CINE GLOBAL</h1><hr className="h1-hr-s"></hr></div>
+                <div className="column"><h1 className="h1-title-selected-cine-global">CINE GLOBAL</h1><hr className="h1-hr-cine-global"></hr></div>
                 <div onClick={() => irCategorias()} className="column"><h1 className="h1-title-cine-global">CATEGORÍAS</h1><hr className="h1-hr-cine-global"></hr></div>
             </div>
 
