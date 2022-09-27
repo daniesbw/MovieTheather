@@ -5,7 +5,7 @@
     font-family: 'Nexa', sans-serif;
     background-color: black;
 }
-h1{
+.h1-terminos{
     color: white;
     font-size: 20px;
     text-align: center;
@@ -15,7 +15,7 @@ h1{
     margin-bottom: 5%;
 }
 
-p{
+.p-terminos{
     line-height: 25px;
     margin-left: 5%;
     margin-right: 5%;
@@ -29,6 +29,7 @@ p{
 }
 
 .acepto{
+    color: black;
     margin-top: 40px;
     background-color: #FFD500; 
     height: 30px;

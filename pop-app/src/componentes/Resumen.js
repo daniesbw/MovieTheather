@@ -13,7 +13,7 @@ function Resumen() {
     return (
         <div className="principal">
             <div className="navegateBar">
-                <h1 className="navegate-h1">ROCK PAPER SCISSORS</h1>
+                <h1 className="navegate-h1-resumen">ROCK PAPER SCISSORS</h1>
             </div>
             
             

@@ -18,9 +18,9 @@ function Terminos() {
                 src={require("../imagenes/pop blanco.png")}
             />
 
-            <h1>TÉRMINOS DE PRIVACIDAD</h1>
+            <h1 className="h1-terminos">TÉRMINOS DE PRIVACIDAD</h1>
 
-            <p>▪ En nuestra Política de privacidad
+            <p className="p-terminos">▪ En nuestra Política de privacidad
                 se describe cómo nosotros y algunas
                 de las empresas con las que
                 trabajamos recopilamos, utilizamos,
